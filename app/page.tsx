@@ -57,7 +57,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-ink/30" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-16 md:px-8 md:pb-24 lg:px-12">
           <div className="mb-8 flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.28em] text-gold"><span className="h-px w-10 bg-gold" /> Since 2007 · Baku, Azerbaijan</div>
-          <h1 className="max-w-5xl font-display text-[clamp(4rem,10vw,9.5rem)] font-black uppercase leading-[0.82] tracking-[-0.06em] text-balance">One city.<br /><span className="text-gold">One crest.</span><br />One family.</h1>
+          <h1 className="max-w-5xl font-display text-[clamp(4rem,10vw,9.5rem)] font-black uppercase leading-[0.82] tracking-[-0.06em] text-balance">One city.<br /><span className="text-gold">One badge.</span><br />One family.</h1>
           <div className="mt-10 flex flex-col gap-7 md:flex-row md:items-end md:justify-between">
             <p className="max-w-md text-base leading-7 text-white/75 md:text-lg">The first official Real Madrid Peña in Azerbaijan. A home for every Madridista in Baku — where match nights become memories.</p>
             <div className="flex flex-wrap gap-3"><a href="#join" className="inline-flex items-center justify-center gap-3 bg-gold px-6 py-4 text-xs font-bold uppercase tracking-[0.16em] text-ink transition-colors hover:bg-white">Join the family <ArrowUpRight className="size-4" /></a><a href="#about" className="inline-flex items-center justify-center gap-3 border border-white/40 px-6 py-4 text-xs font-bold uppercase tracking-[0.16em] text-white transition-colors hover:border-gold hover:text-gold">Our story <ChevronDown className="size-4" /></a></div>
