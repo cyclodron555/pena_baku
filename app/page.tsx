@@ -18,7 +18,6 @@ const navItems = [
   { label: 'Experience', href: '#experience' },
   { label: 'Community', href: '#community' },
   { label: 'Leadership', href: '/leadership' },
-  { label: 'Join us', href: '#join' },
 ]
 
 const timeline = [
@@ -48,7 +47,6 @@ export default function Page() {
           <nav className="hidden items-center gap-8 md:flex" aria-label="Main navigation">
             {navItems.map((item) => <a key={item.href} href={item.href} className="text-[11px] font-semibold uppercase tracking-[0.18em] text-white/75 transition-colors hover:text-gold">{item.label}</a>)}
           </nav>
-          <a href="#join" className="hidden items-center gap-2 text-[11px] font-bold uppercase tracking-[0.18em] text-gold md:flex">Become a Madridista <ArrowUpRight className="size-4" /></a>
           <button type="button" className="rounded-full p-2 text-white md:hidden" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen}>{menuOpen ? <X /> : <Menu />}</button>
         </div>
         {menuOpen && <nav className="border-t border-white/15 bg-ink px-5 py-6 md:hidden" aria-label="Mobile navigation">{navItems.map((item) => <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)} className="block border-b border-white/10 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-white">{item.label}</a>)}</nav>}
