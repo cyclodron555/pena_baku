@@ -53,8 +53,8 @@ export default function Page() {
       </header>
 
       <section id="top" className="relative flex min-h-[760px] items-end bg-ink text-white lg:min-h-[860px]">
-        <Image src="/images/hero-match-night.png" alt="Supporters raising scarves during a match night" fill priority className="object-cover object-center opacity-60" sizes="100vw" />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/45 to-ink/20" />
+        <Image src="/images/hero-match-night.png" alt="Real Madrid supporters raising scarves together" fill priority className="object-cover object-center opacity-60" sizes="100vw" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-ink/30" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-16 md:px-8 md:pb-24 lg:px-12">
           <div className="mb-8 flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.28em] text-gold"><span className="h-px w-10 bg-gold" /> Since 2007 · Baku, Azerbaijan</div>
           <h1 className="max-w-5xl font-display text-[clamp(4rem,10vw,9.5rem)] font-black uppercase leading-[0.82] tracking-[-0.06em] text-balance">One city.<br /><span className="text-gold">One crest.</span><br />One family.</h1>
