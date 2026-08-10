@@ -15,7 +15,7 @@ const navItems = [
 ]
 
 const leaders = [
-  { role: 'President', name: 'A. Mammadov', image: '/images/leadership/president.png', bio: 'Guiding the Peña with conviction, continuity, and a belief that every Madridista deserves a home in Baku.', instagram: 'https://instagram.com/' },
+  { role: 'President', name: 'Jeyhun Manafi', image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Jeyhun-2Y1XICLdsWS2bqy5Y9KdFb40GK2gzs.jpeg', bio: 'Leading Peña Madridista Baku with conviction, continuity, and a belief that every Madridista deserves a home in Baku.', instagram: 'https://www.instagram.com/jmanafli/' },
   { role: 'Vice President', name: 'N. Aliyeva', image: '/images/leadership/vice-president.png', bio: 'Building bridges across generations and making every match night feel like a shared celebration.', instagram: 'https://instagram.com/' },
   { role: 'Treasurer', name: 'R. Hasanov', image: '/images/leadership/treasurer.png', bio: 'Keeping the foundations strong so the community can keep growing with purpose and care.', instagram: 'https://instagram.com/' },
   { role: 'Board Member', name: 'The Matchday Team', image: '/images/leadership/board-members.png', bio: 'The people behind the atmosphere, gatherings, and unforgettable white-shirt moments.', instagram: 'https://instagram.com/' },
